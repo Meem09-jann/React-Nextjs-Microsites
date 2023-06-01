@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import "./softprod.css";
+
+
+
+.accordion-button::after {
+    background-image: url("/img/drop_down.svg") !important
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(3 105 161);
+    background-color: none;
+}
